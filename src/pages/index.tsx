@@ -19,7 +19,7 @@ export default function HomePage() {
       <div className='h-screen pt-32 bg-gray-900 ' id='About'>
         <About />
       </div>
-      <div className='h-screen pt-32 bg-red-800 ' id='Skills'>
+      <div className='h-screen pt-32 bg-black' id='Skills'>
         <Skills />
       </div>
     </main>

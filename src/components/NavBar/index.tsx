@@ -8,7 +8,9 @@ function NavBar() {
   useEffect(() => {
     const handleScroll = () => {
       const navigation = document.querySelector('.navigation');
-      navigation?.classList.toggle('active', window.scrollY > 0);
+      navigation?.classList.toggle('bg-black', window.scrollY > 0);
+      navigation?.classList.toggle('p-3', window.scrollY > 0);
+
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -22,11 +24,11 @@ function NavBar() {
   };
 
   return (
-    <div className='navigation flex items-center p-5'>
+    <div className='navigation flex items-center p-5 transition-all duration-300 ease'>
       <div className='logo'>
         <Image src={logo} alt='Logo' />
       </div>
-      <div className='hidden md:block p-5'>
+      <div className='hidden md:block'>
         <ul className='navbar flex'>
           <li className='text-lg my-3 mx-5'>
             <a href='#Home' onClick={handleNavClick}>
