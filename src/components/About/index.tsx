@@ -6,11 +6,11 @@ function About() {
   return (
     <div className='about component__space'>
       <div className=''>
-        <div className='flex'>
-          <div className='flex-1 flex justify-center'>
-          <Image src={aboutImg} alt='About me' />
+        <div className='about-wrapper w-[70%] mx-auto flex flex-col md:flex-row justify-center items-center'>
+          <div className='image md:w-1/2 flex justify-center'>
+            <Image src={aboutImg} alt='About me' />
           </div>
-          <div className='flex-1'>
+          <div className='description md:w-1/2'>
             <h1 className='text-6xl font-bold text-[#ff0000]'>About Me</h1>
             <div className='about__meta'>
               <p className='about__text p__color'>

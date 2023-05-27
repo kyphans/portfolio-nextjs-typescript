@@ -9,7 +9,7 @@ function NavBar() {
     const handleScroll = () => {
       const navigation = document.querySelector('.navigation');
       navigation?.classList.toggle('bg-black', window.scrollY > 0);
-      navigation?.classList.toggle('p-3', window.scrollY > 0);
+      navigation?.classList.toggle('!p-3', window.scrollY > 0);
 
     };
     window.addEventListener('scroll', handleScroll);
@@ -63,7 +63,7 @@ function NavBar() {
         </ul>
       </div>
       {/* Toogle Menu */}
-      <div className='ml-auto z-50'>
+      <div className='md:hidden ml-auto z-50 '>
         <svg
           onClick={() => setShow(!show)}
           xmlns='http://www.w3.org/2000/svg'
@@ -79,7 +79,7 @@ function NavBar() {
         </svg>
       </div>
       {show ? (
-        <div className='sideNavbar text-lg'>
+        <div className='sideNavbar text-lg md:hidden'>
           <ul className='sidebar flex justify-center flex-col fixed top-0 right-0 h-full w-40 z-40 bg-black'>
             <li className='m-5'>
               <a href='#Home' onClick={handleNavClick}>
