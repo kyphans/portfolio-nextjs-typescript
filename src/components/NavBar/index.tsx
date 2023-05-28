@@ -46,8 +46,8 @@ function NavBar() {
             </a>
           </li>
           <li className='text-lg my-3 mx-5'>
-            <a href='#Portfolio' onClick={handleNavClick}>
-              Portfolio
+            <a href='#Personal-Projects' onClick={handleNavClick}>
+              Projects
             </a>
           </li>
           <li className='text-lg my-3 mx-5'>
@@ -97,8 +97,8 @@ function NavBar() {
               </a>
             </li>
             <li className='m-5'>
-              <a href='#Portfolio' onClick={handleNavClick}>
-                Portfolio
+              <a href='#Personal-Projects' onClick={handleNavClick}>
+                Projects
               </a>
             </li>
             <li className='m-5'>

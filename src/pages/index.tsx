@@ -1,6 +1,7 @@
 import About from '@/components/About';
 import Introduce from '@/components/Introduce';
 import NavBar from '@/components/NavBar';
+import PersonalProjects from '@/components/PersonalProjects';
 import Skills from '@/components/Skills';
 
 export default function HomePage() {
@@ -21,6 +22,9 @@ export default function HomePage() {
       </div>
       <div className='md:h-screen py-32 bg-black' id='Skills'>
         <Skills />
+      </div>
+      <div className='md:h-screen py-32 bg-black' id='Personal-Projects'>
+        <PersonalProjects />
       </div>
     </main>
   );
