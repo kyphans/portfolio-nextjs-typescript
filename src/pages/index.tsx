@@ -17,13 +17,13 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className='md:h-screen py-32 bg-gray-900 ' id='About'>
+      <div className='md:h-screen py-32 bg-[#191919]' id='About'>
         <About />
       </div>
       <div className='md:h-screen py-32 bg-black' id='Skills'>
         <Skills />
       </div>
-      <div className='md:h-screen py-32 bg-black' id='Personal-Projects'>
+      <div className='md:h-screen py-32 bg-[#191919]' id='Personal-Projects'>
         <PersonalProjects />
       </div>
     </main>

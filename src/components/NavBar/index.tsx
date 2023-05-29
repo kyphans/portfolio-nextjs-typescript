@@ -79,8 +79,8 @@ function NavBar() {
         </svg>
       </div>
       {show ? (
-        <div className='sideNavbar text-lg md:hidden'>
-          <ul className='sidebar flex justify-center flex-col fixed top-0 right-0 h-full w-40 z-40 bg-black'>
+        <div className='sideNavbar fixed top-0 right-0 h-full w-40 bg-black text-lg md:hidden'>
+          <ul className='sidebar flex justify-center flex-col h-full'>
             <li className='m-5'>
               <a href='#Home' onClick={handleNavClick}>
                 Home
