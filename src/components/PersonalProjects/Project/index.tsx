@@ -12,9 +12,7 @@ function Project() {
   };
   return (
     <div
-      className='project aspect-square rounded-lg bg-black
-      before:content-["aaaaaaaaaaaaaa"] before:absolute
-      '
+      className='project relative aspect-square rounded-lg bg-black'
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}>
       <div className='p-5'>{'Project'}</div>

@@ -8,7 +8,7 @@ import Skills from '@/components/Skills';
 export default function HomePage() {
   return (
     <main className={`text-white`}>
-      <div className='fixed top-0 right-0 w-full'>
+      <div className='z-[999] fixed top-0 right-0 w-full'>
         <NavBar/>
       </div>
       <div className='h-screen pt-36' id='Home'>
