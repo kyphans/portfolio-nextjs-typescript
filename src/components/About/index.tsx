@@ -6,12 +6,12 @@ function About() {
   return (
     <div className='about component__space'>
       <div className=''>
-        <div className='about-wrapper w-[70%] mx-auto flex flex-col md:flex-row justify-center items-center'>
-          <div className='image md:w-1/2 flex justify-center'>
+        <div className='about-wrapper w-[85%] md:w-[70%] mx-auto flex flex-col md:flex-row justify-center items-start'>
+          <div className='image p-5 md:w-1/2 flex justify-center'>
             <Image src={aboutImg} alt='About me' />
           </div>
-          <div className='description md:w-1/2'>
-            <h1 className='text-6xl font-bold text-[#ff0000]'>About Me</h1>
+          <div className='description p-5 md:w-1/2'>
+            <h1 className='text-6xl font-bold text-white'>About Me</h1>
             <div className='about__meta'>
               <p className='about__text p__color'>
                 There are many variations of passages of Lorem Ipsum available,
