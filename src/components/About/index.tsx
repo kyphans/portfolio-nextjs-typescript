@@ -11,7 +11,7 @@ function About() {
             <Image src={aboutImg} alt='About me' />
           </div>
           <div className='description p-5 md:w-1/2'>
-            <h1 className='text-6xl font-bold text-white'>About Me</h1>
+            <h1 className='text-4xl md:6xl font-bold text-white'>About Me</h1>
             <div className='about__meta'>
               <p className='about__text p__color'>
                 There are many variations of passages of Lorem Ipsum available,
