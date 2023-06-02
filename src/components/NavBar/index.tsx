@@ -9,7 +9,8 @@ function NavBar() {
     const handleScroll = () => {
       const navigation = document.querySelector('.navigation');
       navigation?.classList.toggle('bg-black', window.scrollY > 0);
-      navigation?.classList.toggle('!p-3', window.scrollY > 0);
+      navigation?.classList.toggle('md:!p-3', window.scrollY > 0);
+      navigation?.classList.toggle('!p-2', window.scrollY > 0);
 
     };
     window.addEventListener('scroll', handleScroll);
@@ -24,7 +25,7 @@ function NavBar() {
   };
 
   return (
-    <div className='navigation flex items-center p-5 transition-all duration-300 ease'>
+    <div className='navigation flex items-center p-3 md:p-5 transition-all duration-300 ease'>
       <div className='logo'>
         <Image src={logo} alt='Logo' />
       </div>
